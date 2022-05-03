@@ -1,0 +1,16 @@
+<apex:page standardController="Opportunity">
+    
+    <apex:includeLightning />
+   <div id="Con"/>
+    <script>
+    $Lightning.use("c:DataTableOpp", function() {
+    $Lightning.createComponent("c:OpportunityWrapper",{ recordId : '{!Opportunity.id}' },
+              "Con",
+              function(cmp) {
+                console.log("button was created");
+                
+              }
+          );
+    });
+    </script>
+</apex:page>

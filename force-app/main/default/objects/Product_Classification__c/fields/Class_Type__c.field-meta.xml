@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Class_Type__c</fullName>
+    <description>Different Class Types</description>
+    <externalId>false</externalId>
+    <label>Class Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blank</fullName>
+                <default>false</default>
+                <label>Blank</label>
+            </value>
+            <value>
+                <fullName>Semi Polished Stones</fullName>
+                <default>false</default>
+                <label>Semi Polished Stones</label>
+            </value>
+            <value>
+                <fullName>Household</fullName>
+                <default>false</default>
+                <label>Household</label>
+            </value>
+            <value>
+                <fullName>Processed Food</fullName>
+                <default>false</default>
+                <label>Processed Food</label>
+            </value>
+            <value>
+                <fullName>Industrial Intermediaries</fullName>
+                <default>false</default>
+                <label>Industrial Intermediaries</label>
+            </value>
+            <value>
+                <fullName>Luxury Consumables</fullName>
+                <default>false</default>
+                <label>Luxury Consumables</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
